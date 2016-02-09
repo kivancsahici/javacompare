@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.0
+Created-By: 1.6.0_02-b06 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+Bundle-Name: Java Compare plugin
+Bundle-SymbolicName: com.rubenlaguna.eclipse.javacompare;singleton:=tr
+ ue
+Bundle-Version: 1.1.3
+Bundle-Activator: com.rubenlaguna.eclipse.javacompare.Activator
+Bundle-Vendor: rubenlaguna.com
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,org.eclipse.jdt.ui,org.eclipse.compare,
+ org.eclipse.jface.text,org.eclipse.jdt.core,org.eclipse.core.runtime,
+ org.eclipse.ui.workbench.texteditor,org.eclipse.ui.editors
+Eclipse-LazyStart: true
+Export-Package: com.rubenlaguna.eclipse.javacompare
+
