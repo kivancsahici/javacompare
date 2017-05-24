@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+    <extension
+         point="org.eclipse.compare.contentMergeViewers">
+         <viewer
+               extensions="java,java2,java3"
+               class="com.rubenlaguna.eclipse.javacompare.JavaContentViewerCreator"
+		       id="com.rubenlaguna.eclipse.javacompare.JavaContentViewerCreator">
+	     </viewer>
+	     <contentTypeBinding
+		          contentTypeId="org.eclipse.jdt.core.javaSource"
+		          contentMergeViewerId="com.rubenlaguna.eclipse.javacompare.JavaContentViewerCreator">
+          </contentTypeBinding>               
+ </extension>
+</plugin>
+
